@@ -9,7 +9,7 @@ npm install
 ```
 
 ### .env file
-Copy the .env.sample as .env and fill up the environment variable for your personal mongodb connecttion url.
+Copy the .env.sample as .env and fill up the environment variable for your personal mongodb connection url.
 
 ### Prepare the database
 
