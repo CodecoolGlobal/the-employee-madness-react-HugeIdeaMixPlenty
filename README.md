@@ -18,7 +18,7 @@ cd ./server
 npm run populate
 ```
 
-**populate command** will run the populate.js file as a script and it will generate a buch of starter data for your database. 
+**populate command** will run the populate.js file as a script and it will generate a bunch of starter data for your database. 
 
 ### Running the code
 
@@ -31,7 +31,7 @@ It will start the server with nodemon. So it will watch the changes and restart 
 
 ### Testing with test.http
 
-If you like to try the endpoints of the rest api, you can check the test.http file for urls are should work on your environment as well. And if you install the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extenstion for vscode you can actually run those in your editor.
+If you like to try the endpoints of the rest api, you can check the test.http file for urls should work on your environment as well. And if you install the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extenstion for vscode you can actually run those in your editor.
 
 
 
