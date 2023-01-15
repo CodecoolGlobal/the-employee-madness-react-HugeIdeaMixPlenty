@@ -17,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "dev": "nodemon server.js"
   },
   "eslintConfig": {
     "extends": [
