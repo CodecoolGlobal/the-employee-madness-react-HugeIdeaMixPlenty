@@ -8,6 +8,8 @@ import ErrorPage from "./Pages/ErrorPage";
 import EmployeeList from "./Pages/EmployeeList";
 import EmployeeCreator from "./Pages/EmployeeCreator";
 import EmployeeUpdater from "./Pages/EmployeeUpdater";
+import ListRoberts from "./Pages/ListRoberts";
+import ListName from "./Pages/ListName";
 
 import "./index.css";
 import TableTest from "./Pages/TableTest";
@@ -31,6 +33,22 @@ const router = createBrowserRouter([
         path: "/update/:id",
         element: <EmployeeUpdater />,
       },
+      {
+        path: "/robert",
+        element: <ListRoberts />,
+      },
+      // {
+      //   path: "/getname/:name",
+      //   element: <ListName />,
+      // },
+      {
+        path: "/:name",
+        element: <ListName />,
+      },
+      // {
+      //   path: "/getname2/:name",
+      //   element: <ListName />,
+      // },
       {
         path: "/table-test",
         element: <TableTest />,
